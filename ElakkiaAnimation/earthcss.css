@@ -1,0 +1,328 @@
+/*<div class="thir">
+            <img id="land" src="3 (1).gif" width="50%" height="50%">
+         </div>
+       
+*/
+
+body{
+  background-image:url(star.gif) ;    
+  overflow: hidden;
+  
+}
+
+#earnew,#moon{
+    position: relative;
+    
+
+}
+/*#racket{
+    top:45%;
+    left:-4%;
+}*/
+#earnew{
+    /*top:43%;
+    left:12%*/
+    animation: ear  ease-in forwards ;
+    animation-duration: 20s;
+    animation-play-state: running;
+    
+    
+}
+@keyframes ear {
+    0%{
+        top:35%;
+        left:-1%;
+    }
+    90%{
+        /*transform: translate(-95%,-1%);*/
+        opacity: 1;
+        left:-20%;
+    }
+    100%{
+        top:80%;
+        left: -30%;
+        opacity:0;
+        display: none;
+    }
+
+    
+}
+#moon{
+top:-35%;
+left:480px;
+/*transition: transform 0.8s ease-in-out;*/
+animation: zoomAnimation 80s ease-in;
+animation-delay: 8s;
+transform:translate(100%,0%)  scale(0);
+
+}
+
+@keyframes zoomAnimation {
+    /*0%{
+        transform:translate(-50%,50%)  scale(0);
+        
+    }*/
+    0% {
+        transform:translate(100%,0%)  scale(1);
+        
+        }
+    10%{
+        transform:translate(90%,20%) scale(2);
+            
+        }
+    20% {
+        transform:translate(80%,30%) scale(3);
+        }
+    30%{
+        transform:translate(70%,40%) scale(4);
+            }
+    40%{
+        transform:translate(60%,50%) scale(5.5);
+        }
+    50%{
+        transform: translate(50%,60%) scale(6);
+        }
+    60%{
+        transform: translate(40%,70%) scale(6.5);
+        }
+    75%{
+        transform: translate(30%,80%) scale(7.5);
+        }
+    80%{
+        transform: translate(20%,90%) scale(8.5);
+        }
+    85%{
+        transform: translate(10%,100%) scale(9.5);
+        
+        }
+    90%{
+        transform: translate(-50%,120%) scale(10);
+         
+       }
+    95%{
+        transform: translate(-100%,140%) scale(10.5);
+        
+        }
+    100%{
+        
+        transform: translate(-130%,160%) scale(11);
+        display:none;
+    }
+    }
+    #molan{
+        top:-20%;
+        left:450px;
+        
+        position: relative;
+        /*transition: transform 0.8s ease-in-out;*/
+        animation: zoomAn1 80s ease-in;
+        animation-delay: 8s;
+        transform:translate(50%,0%)  scale(0);
+        
+        }
+        @keyframes zoomAn1 {
+            /*0%{
+                transform:translate(-50%,50%)  scale(0);
+                opacity:0%;
+                
+            }*/
+            10% {
+                transform:translate(50%,0%)  scale(1);
+                opacity: 0%;
+                
+                }
+            20%{
+                transform:translate(90%,20%) scale(2); 
+                opacity: 0%;   
+                }
+            30% {
+                transform:translate(80%,30%) scale(3);
+                opacity: 0%;
+                }
+            40%{
+                transform:translate(70%,40%) scale(4);
+                opacity: 0%;
+                    }
+            50%{
+                transform:translate(60%,50%) scale(5);
+                opacity: 0%;
+                }
+            60%{
+                transform: translate(50%,60%) scale(6);
+                opacity:0%;
+                }
+            70%{
+                transform: translate(40%,70%) scale(7);
+                opacity: 0%;
+                }
+            80%{
+                transform: translate(30%,80%) scale(8.5);
+                opacity: 10%;
+                }
+            85%{
+                transform: translate(20%,90%) scale(9.5);
+                opacity: 10%;
+                }
+            90%{
+                transform: translate(0%,100%) scale(10);
+                opacity: 25%;
+                }
+            95%{
+                transform: translate(0%,100%) scale(10.5);
+                opacity: 50%;
+                
+                }
+            100%{
+                transform: translate(0%,100%) scale(11);
+                opacity: 100%;
+                
+                }
+            }
+        
+#racket{
+    position: relative;
+    
+    
+}
+
+.rack{
+    /*width:250px;
+    height:250px;
+    background-image: url(rac.png);
+    position: relative;
+    */
+    animation: rak ease;
+    animation-duration: 100s;
+    animation-play-state: running;
+    transform:translate(-48%,80%) scale(0);
+
+    display:flex;
+    
+    }
+@keyframes rak {
+    0%{
+        
+       
+       transform:translate(-48%,80%) rotate(20deg) scale(0);
+              
+    }
+    50%{
+        transform: translate(50%,-70%) rotate(20deg) scale(1);
+    }
+    /*70%{
+        transform: translate(70%,-125%) rotate(20deg) scale(1);
+        
+        
+    }*/
+    100%{
+        
+        transform:translate(50%,-250%) rotate(-40deg) scale(1);
+        /*top:60%;
+        right: 60%;
+        */
+        
+        
+        
+    }
+    
+}
+#sat{
+    animation: sa  ease-in forwards;
+    animation-duration: 20s;
+    animation-play-state: running;
+    position: relative;
+    
+    }
+@keyframes sa {
+    0%{
+        top:5%;
+        left:-1%;
+    }
+    50%{
+        /*transform: translate(-95%,-1%);*/
+        opacity: 1;
+        left:-20%;
+        opacity: 1;
+    }
+    100%{
+        opacity: 2;
+        top:20%;
+        left: -50%;
+        display: none;
+    }
+}
+
+
+/*#ra_niid{
+    position: relative;
+    
+    
+}*/
+
+/*.ra_ni{
+    
+    animation: Rac1;
+    animation-duration: 5s;
+    animation-play-state: running;
+    transform: translate(70%,-125%);
+    animation-delay: 1s;
+    top:0%;
+    }
+@keyframes Rac1 {
+    from{
+    
+       
+       transform-origin:translate(70%,-125%) scale(1);
+              
+    }
+    to{
+        transform: translate(70%,-125%) scale(1);
+
+        dispaly:none;
+        
+    }
+    
+}*/
+
+/*#land{
+    border-radius: 50%;
+    transition: transform 0.8s ease-in-out;*/
+    
+/*.thir{
+        /*width:250px;
+        height:250px;
+        background-image: url(rac.png);
+        position: relative;
+        animation: lan 5s forwards;
+        animation-duration: 18s;
+        animation-delay: 5s;
+        animation-play-state: running;
+        background-repeat: no-repeat;
+        position: relative;
+        top:-60%;
+        left:1000px;transform:translate(-50%,50%)
+    
+    }
+    @keyframes lan {
+        0% {
+            transform:translate(100%,0%)  scale(0);
+    
+            }
+        20%{
+            transform:translate(80%,20%) scale(1);    
+            }
+        40% {
+            transform:translate(60%,40%) scale(2);
+            }
+        60%{
+            transform:translate(40%,60%) scale(3);
+                }
+        80%{
+            transform:translate(20%,80%) scale(4);
+            }
+        100%{
+            transform: translate(0%,100%) scale(5)
+            
+            }
+         
+    }*/
